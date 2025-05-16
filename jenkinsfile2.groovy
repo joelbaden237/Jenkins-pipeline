@@ -4,7 +4,6 @@ pipeline{
         stage("Build"){
             steps{
                 echo "Using Maven to compile and package the code"
-                echo "Trigger Poll SCM"
             }
         }
         stage("Unit and Integration Tests"){
