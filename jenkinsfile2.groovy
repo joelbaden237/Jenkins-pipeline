@@ -10,7 +10,6 @@ pipeline{
         stage("Unit and Integration Tests"){
             steps{
                 echo "Using JUnit for unit testing and Selenium for integration testing."
-                echo "Test plzx"
             }
         }
          stage("Code Analysis"){
